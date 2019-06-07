@@ -19,10 +19,11 @@ $(document).ready(function () {
     // game reset function
     function resetGame() {
         scoreDisplay.empty();
-        scoreDisplay.html('Your crystal Value ' + playerScore);
         playerScore = 0;
-        goalNumber = Math.floor(Math.random() * 120) + 19;
+        scoreDisplay.html('Your crystal Value ' + playerScore);
+        goalNumber.empty();
         goalNumber = 0;
+        goalNumber = Math.floor(Math.random() * 120) + 19;
         firstCrystal = 0;
         firstCrystal = Math.floor(Math.random() * 12) + 1;
         secondCrystal = 0;

@@ -1,8 +1,12 @@
-.Crystal {
-    width: 100px;
+body {
+    background-color: black;
+    margin: auto 0;
+    color: white;
+    text-align: center;
+    image-orientation: center;
 }
 
-.imageCss {
+.crystal {
     max-width: 100px;
-    
+    border: outset 2px;   
 }
